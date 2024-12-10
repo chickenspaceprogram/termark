@@ -2,8 +2,8 @@
 
 ### A terminal markup language
 
-This project is a compiler of sorts that takes text formatted in a lightweight macro-based markup language, called `termark`.
+`termark` is a script written in M4 (a macro processing utility available on UNIX systems) that defines a series of macros for ANSI escape codes.
 
-The goal of this project is to compile `termark` down to a string of characters that can be easily printed from a program written in a language of the user's choosing.
+Some familiarity with M4 is probably beneficial, however it is not necessary to know M4 in order to use this script. In fact, it is likely that `termark` will be rewritten in `lmap`, a macro processing utility that I am developing currently.
 
-`termark` is heavily inspired by the syntax of LaTeX. Since LaTeX syntax is, frankly, ugly, this is probably a bad move, but I liked the idea of only having to define a few primitives.
+
